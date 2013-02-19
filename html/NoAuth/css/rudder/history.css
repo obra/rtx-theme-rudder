@@ -3,33 +3,33 @@ div.history-container {
 }
 
 
-.history .transaction .metadata span.type {
+.history .ticket-transaction .metadata span.type {
     margin:0;
     font-size: 1.2em;
     margin-right: 1em;
     padding: 0.25em;
     border: none;
 }
-.history .transaction .metadata span.type a{
+.history .ticket-transaction .metadata span.type a{
     color: transparent ;
 }
-.history .transaction:hover .metadata span.type a{
+.history .ticket-transaction:hover .metadata span.type a{
     color: white;
 }
 
-.history .transaction .metadata .date,
-.history .transaction .metadata .description,
-.history .transaction .metadata .time-taken {
+.history .ticket-transaction .metadata .date,
+.history .ticket-transaction .metadata .description,
+.history .ticket-transaction .metadata .time-taken {
     margin-top: 0.5em;
     display: inline-block;
     margin-right: 2em;
 }
 
-.history .transaction .metadata {
+.history .ticket-transaction .metadata {
     margin-bottom: 1em;
 }
 
-.transaction div.metadata span.actions  {
+.ticket-transaction div.metadata span.actions  {
     background: #eee;
     color: #eee;
     display: inline-block;
@@ -40,11 +40,11 @@ div.history-container {
     -moz-border-radius-bottomright: 0.5em;
     -webkit-border-bottom-right-radius: 0.5em
 }
-.transaction div.metadata span.actions a {
+.ticket-transaction div.metadata span.actions a {
     padding: 0.2em;
 }
 
-.transaction div.downloadattachment {
+.ticket-transaction div.downloadattachment {
     float: right;
     clear: both;
     text-align: right;
@@ -56,12 +56,12 @@ div.history-container {
     line-height: 1em;
 }
 
-.transaction div.downloadattachment a {
+.ticket-transaction div.downloadattachment a {
     color: #aaa;
     display: block;
 }
 
-.transaction div.downloadattachment .downloadcontenttype {
+.ticket-transaction div.downloadattachment .downloadcontenttype {
     color #ccc;
     display: block;
 }
