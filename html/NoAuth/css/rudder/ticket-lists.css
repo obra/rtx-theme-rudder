@@ -96,21 +96,25 @@ table.queue-summary a, table.collection-as-table a  {
 
 
 table.collection-as-table th.collection-as-table {
-  background: #fff;
+  background: #eee;
   padding: 0.5em;
   margin-bottom: 0.5em;
   text-align: left;
-  border-bottom: 1px solid #ccc;
+ border-bottom: 2px solid grey;
 }
 
 
 table.queue-summary th.collection-as-table {
-  background: #fff;
+  background: #eee;
   padding: 0.5em;
   margin-bottom: 0.5em;
   text-align: right;
-  border-bottom: 1px solid #ccc;
+ border-bottom: 2px solid grey;
 
+}
+
+table.collection-as-table, table.queue-summary {
+    border-bottom: 2px solid grey;
 }
 
 table.queue-summary th.collection-as-table:first-child {
