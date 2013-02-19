@@ -1,0 +1,8 @@
+This is a prototype. Caveat user.
+
+To enable on your RT instance:
+
+Set(@Plugins,(qw(RTx::Theme::Rudder)));
+Set($WebDefaultStylesheet, 'rudder');
+
+
