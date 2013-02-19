@@ -114,7 +114,8 @@ table.queue-summary th.collection-as-table {
 }
 
 table.collection-as-table, table.queue-summary {
-    border-bottom: 2px solid grey;
+    border-bottom: 1px solid grey;
+    margin-bottom: 1em;
 }
 
 table.queue-summary th.collection-as-table:first-child {
