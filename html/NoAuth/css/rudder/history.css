@@ -48,11 +48,11 @@ div.history-container {
     float: right;
     clear: both;
     text-align: right;
-    background: #fff;
+    background: transparent;
     padding: 0.5em;
     margin-left: 1em;
     border: none;
-    color: #fff;
+    color: transparent;
     line-height: 1em;
 }
 

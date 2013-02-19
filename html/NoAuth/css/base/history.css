@@ -45,12 +45,15 @@
 %# those contributions and any derivatives thereof.
 %#
 %# END BPS TAGGED BLOCK }}}
-.ticket-transaction {
+.ticket-transaction .ticket-transaction {
     border-top: 2px solid #ccc;
     padding-bottom: 0.5em;
     position: relative; /* gives us a container for position: absolute */
 }
 
+.ticket-transaction.even {
+ background-color: #fafafa;
+}
 .ticket-transaction.odd {
  background-color: #fff;
 }
