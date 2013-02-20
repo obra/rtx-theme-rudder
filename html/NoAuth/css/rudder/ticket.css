@@ -78,12 +78,20 @@
     margin-left: 0;
     padding-bottom: 4px;
     margin-bottom: 8px;
+    -webkit-border-top-left-radius: 0.3em;
+    -webkit-border-top-right-radius: 0.3em;
+    -moz-border-radius-topleft: 0.3em;
+    -moz-border-radius-topright: 0.3em;
+    border-radius: 0.3em 0.3em 0 0;
 }
 
 .titlebox.ticket-info-reminders table {
     width: 100%;
 }
 
+.titlebox.ticket-info-reminders table form {
+    display: inline-block;
+}
 /* don't put a background on the outer titlebox */
 .summary>div>.titlebox>.titlebox-content{
     background: none;

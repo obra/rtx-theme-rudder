@@ -100,11 +100,11 @@ table.queue-summary th.collection-as-table {
   padding-top: 0.6em;
   padding-bottom: 0.25em;
   margin-bottom: 0.5em;
-  color: #339;
+  color: #3858a3;
 }
 table.collection-as-table th.collection-as-table a,
 table.queue-summary th.collection-as-table a {
-  color: #339;
+  color: #3858a3;
 }
 
 table.collection-as-table th.collection-as-table {
@@ -149,7 +149,10 @@ tr.evenline td {
 
 tr.oddline td {
   background: #eee;
-
+  border-top: 1px solid #cccccc;
+}
+tr.oddline+tr.oddline td {
+    border-top: none;
 }
 
 tr.evenline , tr.oddline  {

@@ -70,11 +70,9 @@ div.error .titlebox-title span.left {
     border-right: 2px solid #b00;
 }
 
-div.error .titlebox-content {
-    border: 1px solid #b00;
-    border-bottom: 2px solid #a00;
-    border-right: 2px solid #a00;
+div.error .titlebox-content, div#body>div.error {
     background-color: #fcc;
+    padding: 1em;
 }
 
 div.error .titlebox-title .widget a { background-position: center -7px; }
