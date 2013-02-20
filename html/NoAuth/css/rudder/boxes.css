@@ -47,13 +47,20 @@
 %# END BPS TAGGED BLOCK }}}
 .titlebox {
  margin-top: 1em;
- margin-left: 1em;
     margin-bottom: 2em;
 }
 
 .titlebox .titlebox-content {
-    padding-top: 1em;
+    padding: 0.5em 1em 0.5em 1em;
     border-top: 2px solid #aaa;
+    background-color: #fafafa;
+    min-height: 3em;
+    -moz-border-radius-bottomright: 0.5em;
+    -webkit-border-bottom-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    -moz-border-radius-bottomleft: 0.5em;
+    -webkit-border-bottom-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
 }
 
 * html .titlebox {
@@ -69,7 +76,6 @@
 }
 
 .titlebox .titlebox .titlebox-content {
-    background-color: white;
 }
 
 
@@ -84,7 +90,7 @@
 
 .titlebox .titlebox-title {
  position: relative;
- margin-bottom: -1px;
+ background-color: transparent;
 }
 
 .titlebox .titlebox-title a {
@@ -108,19 +114,12 @@
 
 .titlebox .titlebox-title .left {
     font-weight: bold;
-    background: #fff;
+    background: transparent;
     margin-left: 1em;
-    padding: 0.5em 1.25em 0.5em 2.5em;
-    line-height: 2em;
+    padding: 0.5em 1.25em 0.25em 1.25em;
+    line-height: 1.4em;
     font-size: 1.1em;
-    -webkit-border-top-left-radius: 0.3em;
-    -webkit-border-top-right-radius: 0.3em;
-    -moz-border-radius-topleft: 0.3em;
-    -moz-border-radius-topright: 0.3em;
-    border-radius: 0.3em 0.3em 0 0;
-    border-right: 2px solid #aaa;
-    border-top: 2px solid #aaa;
-    border-left: 2px solid #aaa;
+    border: none;
 }
 
 .titlebox .titlebox-title .right-empty {
@@ -130,9 +129,9 @@
 .titlebox .titlebox-title .right {
   position: absolute;
    right: 2px;
-   top: 0.5em;
+   top: 0;
   font-size: 0.9em;
- padding-right: 0.4em;
+ padding-right: 0em;
  padding-left: 0.4em;
  padding-bottom: 0.2em;
  padding-top: 0.5em;
@@ -154,8 +153,8 @@
  font-weight: bold;
 }
 
-.titlebox .titlebox-title .right a:hover,
-.titlebox .titlebox-title .right a:active {
+.titlebox:hover .titlebox-title .right a,
+.titlebox:active .titlebox-title .right a {
     color: #000;
 }
 
@@ -168,8 +167,8 @@
   background-position: center 0;
   
   position: absolute;
-  top: 0.8em;
-  left: 2.1em;
+  top: 0.5em;
+  left: 0.5em;
   
   padding: 7px 0 0 0;
   overflow: hidden;

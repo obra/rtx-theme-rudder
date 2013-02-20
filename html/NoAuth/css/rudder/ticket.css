@@ -55,6 +55,36 @@
 .ticket-info-dates .titlebox-title .widget a { background-position: center -7px; }
 .ticket-info-attachments .titlebox-title .widget a { background-position: center -7px; }
 
+.ticket-info-cfs .titlebox-title  ,
+.ticket-info-basics .titlebox-title  ,
+.ticket-info-people .titlebox-title  ,
+.ticket-info-requestor .titlebox-title  ,
+.ticket-info-links .titlebox-title  ,
+.ticket-info-reminders .titlebox-title  ,
+.ticket-info-dates .titlebox-title  ,
+.ticket-info-attachments .titlebox-title  {
+    margin-left: 1em;
+}
+
+.ticket-info-cfs .titlebox-title  .left,
+.ticket-info-basics .titlebox-title  .left,
+.ticket-info-people .titlebox-title  .left,
+.ticket-info-requestor .titlebox-title  .left,
+.ticket-info-links .titlebox-title  .left,
+.ticket-info-reminders .titlebox-title  .left,
+.ticket-info-dates .titlebox-title  .left,
+.ticket-info-attachments .titlebox-title  .left{
+    padding-left: 2.25em;
+    margin-left: 0;
+    padding-bottom: 4px;
+    margin-bottom: 8px;
+}
+
 .titlebox.ticket-info-reminders table {
     width: 100%;
+}
+
+/* don't put a background on the outer titlebox */
+.summary>div>.titlebox>.titlebox-content{
+    background: none;
 }

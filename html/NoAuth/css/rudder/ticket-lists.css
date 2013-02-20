@@ -47,7 +47,6 @@
 %# END BPS TAGGED BLOCK }}}
 table.queue-summary, table.collection-as-table {
   margin-top: 0.75em;
-  border: none;
   width: 100%;
   border-spacing:0;
   border-collapse:collapse;
@@ -96,12 +95,16 @@ table.queue-summary a, table.collection-as-table a  {
 
 table.collection-as-table th.collection-as-table,
 table.queue-summary th.collection-as-table {
-  background: #ccc;
+  background: transparent;
   padding: 0.5em;
   padding-top: 0.6em;
-  padding-bottom: 0.6em;
+  padding-bottom: 0.25em;
   margin-bottom: 0.5em;
-  border-bottom: 2px solid grey;
+  color: #339;
+}
+table.collection-as-table th.collection-as-table a,
+table.queue-summary th.collection-as-table a {
+  color: #339;
 }
 
 table.collection-as-table th.collection-as-table {
@@ -114,8 +117,9 @@ table.queue-summary th.collection-as-table {
 }
 
 table.collection-as-table, table.queue-summary {
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #ccc;
     margin-bottom: 2em;
+
 }
 
 table.queue-summary th.collection-as-table:first-child {
@@ -140,14 +144,18 @@ table.queue-summary td {
 
 
 tr.evenline td {
-  background: #eee;
+  background: #fff;
 }
 
 tr.oddline td {
-  background: #fff;
+  background: #eee;
 
 }
 
+tr.evenline , tr.oddline  {
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+}
 tr.evenline td, tr.oddline td {
  padding-top: 0.5em;
 }
