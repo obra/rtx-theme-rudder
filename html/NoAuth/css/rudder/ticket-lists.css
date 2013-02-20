@@ -94,23 +94,23 @@ table.queue-summary a, table.collection-as-table a  {
   font-weight: bold;
 }
 
+table.collection-as-table th.collection-as-table,
+table.queue-summary th.collection-as-table {
+  background: #ccc;
+  padding: 0.5em;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  margin-bottom: 0.5em;
+  border-bottom: 2px solid grey;
+}
 
 table.collection-as-table th.collection-as-table {
-  background: #eee;
-  padding: 0.5em;
-  margin-bottom: 0.5em;
   text-align: left;
- border-bottom: 2px solid grey;
 }
 
 
 table.queue-summary th.collection-as-table {
-  background: #eee;
-  padding: 0.5em;
-  margin-bottom: 0.5em;
   text-align: right;
- border-bottom: 2px solid grey;
-
 }
 
 table.collection-as-table, table.queue-summary {
