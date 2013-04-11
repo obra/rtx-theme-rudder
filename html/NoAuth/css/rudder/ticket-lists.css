@@ -46,7 +46,6 @@
 %#
 %# END BPS TAGGED BLOCK }}}
 table.queue-summary, table.collection-as-table {
-  margin-top: 0.75em;
   width: 100%;
   border-spacing:0;
   border-collapse:collapse;
