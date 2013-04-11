@@ -145,13 +145,16 @@
 }
 
 #topactions form * {
-    vertical-align: top;
 }
 
+#topactions input[type=submit],
+#topactions button {
+    padding-top: 0.2em;    
+    padding-bottom: 0.3em;    
+}
 #topactions button, #topactions select, #topactions input{
- padding-top: 0em;
- padding-bottom: 0em;
  width: 8em;
+ vertical-align: middle;
 
 }
 
