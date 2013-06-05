@@ -140,6 +140,10 @@ table.queue-summary td {
 }
 
 
+tr.evenline td, tr.oddline td {
+ padding-top: 0.5em;
+  border-top: 1px solid #cccccc;
+}
 
 tr.evenline td {
   background: #fff;
@@ -147,8 +151,8 @@ tr.evenline td {
 
 tr.oddline td {
   background: #eee;
-  border-top: 1px solid #cccccc;
 }
+tr.evenline+tr.evenline td,
 tr.oddline+tr.oddline td {
     border-top: none;
 }
@@ -156,9 +160,6 @@ tr.oddline+tr.oddline td {
 tr.evenline , tr.oddline  {
     border-left: 1px solid #cccccc;
     border-right: 1px solid #cccccc;
-}
-tr.evenline td, tr.oddline td {
- padding-top: 0.5em;
 }
 
 
