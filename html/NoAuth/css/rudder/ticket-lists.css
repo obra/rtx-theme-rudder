@@ -49,7 +49,7 @@ table.queue-summary, table.collection-as-table {
   width: 100%;
   border-spacing:0;
   border-collapse:collapse;
-
+  margin-top: 1em;
 
 }
 table.collection-as-table td {
@@ -95,10 +95,9 @@ table.queue-summary a, table.collection-as-table a  {
 table.collection-as-table th.collection-as-table,
 table.queue-summary th.collection-as-table {
   background: transparent;
-  padding: 0.5em;
-  padding-top: 0.6em;
-  padding-bottom: 0.25em;
+  padding: 0.25em;
   margin-bottom: 0.5em;
+  padding-bottom: 0.5em;
   color: #3858a3;
 }
 table.collection-as-table th.collection-as-table a,
