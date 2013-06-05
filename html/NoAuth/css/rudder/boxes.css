@@ -103,6 +103,11 @@
 
 }
 
+.titlebox.rolled-up  .titlebox-title .left,
+.titlebox.rolled-up  .titlebox-title .left a{
+    color: #ccc;
+}
+
 .titlebox.rolled-up .titlebox-title {
     border-bottom: 1px solid #ccc;
 }
