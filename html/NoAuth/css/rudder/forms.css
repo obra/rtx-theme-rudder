@@ -77,18 +77,22 @@ div.error .titlebox-content, div#body>div.error {
 
 div.error .titlebox-title .widget a { background-position: center -7px; }
 
-input[type=reset], input[type=submit], input[class=button], button {
-   color: #fff;
-   background: #4868b3;
+input[type=reset], input[type=submit], input[class=button], button, input, select {
     font-size: 1.0em;
-    padding: 0.5em;
     padding-left: 1em;
     padding-right: 1em;
-    border: none;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
     border-radius: 0;
+}
+
+input[type=reset], input[type=submit], input[class=button], button {
+   color: #fff;
+   background: #4868b3;
     border: 1px solid #fff;
+    padding: 0.5em;
 }
 
 input.button:focus, button:focus, input[type=reset]:focus, input[type=submit]:focus, input[class=button]:focus,
