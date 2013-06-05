@@ -57,8 +57,17 @@
     overflow: auto;
 }
 
+span.label, span.labeltop,
 td.label, td.labeltop {
     font-weight: bold;
     color: #666;
     font-size: 1em;
+}
+
+table.myday h2 {
+    display: inline;
+}
+
+table.myday td {
+    padding: 0.25em;
 }
