@@ -126,11 +126,11 @@ table.queue-summary th.collection-as-table:first-child {
 }
 
 
-tr.collection-as-table+tr.collection-as-table th {
- border-bottom: 2px solid grey;
+tr.collection-as-table+tr.collection-as-table th,
+table.collection-as-table.chart th {
+ border-bottom: 2px solid #ccc;
 
 }
-
 
 
 
