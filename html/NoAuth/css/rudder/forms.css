@@ -51,6 +51,7 @@
 div.results .titlebox, div.error div.error {
     border: none;
     background: none;
+    font-weight: bold;
 }
 
 div.results .titlebox-content {
