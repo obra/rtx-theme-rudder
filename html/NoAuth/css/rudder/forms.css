@@ -77,13 +77,30 @@ div.error .titlebox-content, div#body>div.error {
 
 div.error .titlebox-title .widget a { background-position: center -7px; }
 
- input[type=reset], input[type=submit], input[class=button], button {
-    font-size: 1.1em;
+input[type=reset], input[type=submit], input[class=button], button {
+   color: #fff;
+   background: #4868b3;
+    font-size: 1.0em;
     padding: 0.5em;
     padding-left: 1em;
     padding-right: 1em;
     border: none;
-    -moz-border-radius: 0.5em;
-    -webkit-border-radius: 0.5em;
-    border-radius: 0.5em;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    border: 1px solid #fff;
+}
+
+input.button:focus, button:focus, input[type=reset]:focus, input[type=submit]:focus, input[class=button]:focus,
+input.button:hover, button:hover, input[type=reset]:hover, input[type=submit]:hover, input[class=button]:hover {
+   background: #3D5B9D;
+}
+
+input.button:active, button:active, input[type=reset]:active, input[type=submit]:active, input[class=button]:active {
+   background: #1D3B7D;
+//   background: #3D5B9D;
+}
+
+
+ input[type=reset], input[type=submit], input[class=button], button {
  }
