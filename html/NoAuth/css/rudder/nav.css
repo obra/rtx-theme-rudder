@@ -147,20 +147,25 @@
 #topactions form * {
 }
 
+#topactions input,
+#topactions select,
 #topactions input[type=submit],
 #topactions button {
+    font-size: 1em;
     padding-top: 0.2em;    
-    padding-bottom: 0.3em;    
-}
-#topactions button, #topactions select, #topactions input{
- width: 8em;
- vertical-align: middle;
+    padding-bottom: 0.3em;  
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    width: 8em;
+    vertical-align: middle;
+    
 
 }
 
 #topactions #simple-search .field{
  margin-left: 1em;
  color: #787;
+ border: 1px solid #fff;
  }
 
 #topactions #simple-search .field:focus {
