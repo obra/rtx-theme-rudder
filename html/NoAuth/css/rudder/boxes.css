@@ -159,7 +159,8 @@
 .titlebox .titlebox-title .right a:visited {
  color: #999;
  font-weight: bold;
- margin-left: 1em;
+ margin-left: 0.5em;
+ margin-right: 0.5em;
 }
 
 .titlebox:hover .titlebox-title .right a,
