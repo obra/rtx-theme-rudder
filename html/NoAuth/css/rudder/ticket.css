@@ -91,6 +91,7 @@
 
 .titlebox.ticket-info-reminders table form {
     display: inline-block;
+    width: 100%;
 }
 /* don't put a background on the outer titlebox */
 .summary>div>.titlebox>.titlebox-content{
