@@ -2,7 +2,11 @@ div.history-container {
     border: 0;
 }
 
-
+.history .ticket-transaction.message div.content {
+    padding-right: 0;
+    padding-bottom: 3em;
+    margin-left: 3em;
+}
 .history .ticket-transaction .metadata span.type {
     margin:0;
     font-size: 1.2em;
@@ -26,7 +30,8 @@ div.history-container {
 }
 
 .history .ticket-transaction .metadata {
-    margin-bottom: 1em;
+    margin-bottom: 0em;
+    margin-top: 0.25em;
 }
 
 .ticket-transaction div.metadata span.actions  {
@@ -49,7 +54,7 @@ div.history-container {
     clear: both;
     text-align: right;
     background: transparent;
-    padding: 0.5em;
+    padding-top: 0.5em;
     margin-left: 1em;
     border: none;
     color: transparent;
