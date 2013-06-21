@@ -80,10 +80,6 @@ div.error .titlebox-title .widget a { background-position: center -7px; }
 
 input[type=reset], input[type=submit], input[class=button], button, input, select {
     font-size: 1.0em;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
     -moz-border-radius: 0;
     -webkit-border-radius: 0;
     border-radius: 0;
