@@ -172,6 +172,11 @@
  color: #000;
  }
 
+.sf-menu ul {
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+
 /* The bookmark star is too tall without adjusting the padding and height */
 
 .sf-menu .toggle-bookmark a {
