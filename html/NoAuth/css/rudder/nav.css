@@ -74,9 +74,6 @@
     top: 2.5em;
 }
 
-#page-menu.sf-menu li ul {
-    border-bottom: 2px solid #ccc;
-}
 
 #main-navigation {
     position: absolute;
@@ -109,16 +106,29 @@
     background-color: transparent;
 }
 
+
 #page-navigation {
     position: absolute;
     top: 6em;
-    right: 0em;
-    left: auto;
+    right: 0;
+    left: 0;
+    padding-right: 3em;
     z-index: 9995;
     font-size: 0.9em;
+    border-bottom: 1px solid #ccc;
+    background-color: #eee;
 }
 
-#page-navigation .sf-menu li, #page-navigation .sf-menu li li, #page-navigation .sf-menu li li li {
+#page-navigation #page-menu{
+    margin-top: 0.2em;
+    float: right;
+    width: auto;
+}
+ 
+#page-navigation .sf-menu li  {
+    background-color: transparent;
+}
+#page-navigation .sf-menu li li, #page-navigation .sf-menu li li li {
     background-color: #fff;
 }
 
@@ -136,9 +146,12 @@
 #topactions {
  position: absolute;
  background: transparent;
- top: 3.2em;
- right: 0.7em;
+ top: 2.5em;
+ right: 0em;
+ padding-right: 0.7em;
  width: auto;
+ padding-top: 0.5em;
+ padding-bottom: 0.5em;
  min-width: 42em;
  font-size: 0.9em;
  z-index: 99;
@@ -165,7 +178,6 @@
 #topactions #simple-search .field{
  margin-left: 1em;
  color: #787;
- border: 1px solid #fff;
  }
 
 #topactions #simple-search .field:focus {
