@@ -147,9 +147,13 @@ div#header h1 {
  left: 1em;
  right: 20em;
  top: 0em;
- overflow: hidden;
+ height: 1.4em;
  font-size: 1.4em;
  color: #fff;
+ white-space: nowrap;
+ overflow: hidden;
+ text-overflow: ellipsis;
+ 
 }
 
 /* in multi-column layouts, make sure we have an internal gutter */
