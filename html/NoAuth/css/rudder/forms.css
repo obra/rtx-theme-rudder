@@ -105,3 +105,7 @@ input.button:active, button:active, input[type=reset]:active, input[type=submit]
 
  input[type=reset], input[type=submit], input[class=button], button {
  }
+
+ .value {
+     font-size: 1em;
+ }
