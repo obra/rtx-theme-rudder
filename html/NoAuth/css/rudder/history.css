@@ -16,6 +16,11 @@ div.history-container {
 }
 .history .ticket-transaction .metadata span.type a{
     color: transparent ;
+
+}
+.history .ticket-transaction .metadata span.type a#lasttrans{
+    display: inline;
+    
 }
 .history .ticket-transaction:hover .metadata span.type a{
     color: white;
