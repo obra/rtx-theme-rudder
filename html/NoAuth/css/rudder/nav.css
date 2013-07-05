@@ -187,15 +187,15 @@
 .sf-menu ul { 
     background-image: none;
     padding: 0;
-    -moz-box-shadow:    4px 4px 2px 1px #ccc;
-    -webkit-box-shadow: 4px 4px 2px 1px #ccc;
-    box-shadow:         4px 4px 2px 1px #ccc;
 
 }
 .sf-menu.sf-shadow ul {
     -moz-border-radius:0;
     -webkit-border-radius: 0;
     border-radius:0;
+    -moz-box-shadow:    2px 2px 8px -2px #999;
+    -webkit-box-shadow: 2px 2px 8px -2px #999;
+    box-shadow:         2px 2px 8px -2px #999;
 }
 
 /* The bookmark star is too tall without adjusting the padding and height */
