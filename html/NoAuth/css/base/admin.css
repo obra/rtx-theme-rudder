@@ -95,10 +95,3 @@ ul.list-menu ul li {
     padding-bottom: 0;
 }
 
-.admin-hint {
-    font-style: italic;
-}
-
-h2 + .admin-hint {
-    margin-top: -1em;
-}

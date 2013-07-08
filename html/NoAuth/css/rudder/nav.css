@@ -59,7 +59,7 @@
 }
 
 .sf-sub-indicator {
-    background-image: url(<%RT->Config->Get('WebPath')%>/NoAuth/css/images/arrows-grey.png);
+    background-image: url(<%RT->Config->Get('WebPath')%>/static/css/images/arrows-grey.png);
 }
 
 .sf-menu li li .sf-sub-indicator {
@@ -138,9 +138,9 @@
 }
 
 /* to stop a "flash" of an unstyled menu on an older browser,  hide the menu until superfish has initialized it */
-#app-nav.toplevel { display: none; } 
+#app-nav.toplevel { display: none; }
 #app-nav.toplevel.sf-menu { display:block; }
-#page-menu.toplevel { display: none; } 
+#page-menu.toplevel { display: none; }
 #page-menu.toplevel.sf-menu { display:block; }
 
 #topactions {

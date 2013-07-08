@@ -2,44 +2,45 @@ div.history-container {
     border: 0;
 }
 
-.history .ticket-transaction.message div.content {
+.history .transaction.message div.content {
     padding-right: 0;
     padding-bottom: 3em;
     margin-left: 3em;
 }
-.history .ticket-transaction .metadata span.type {
+
+.history .transaction .metadata span.type {
     margin:0;
     font-size: 1.2em;
     margin-right: 1em;
     padding: 0.25em;
     border: none;
 }
-.history .ticket-transaction .metadata span.type a{
+.history .transaction .metadata span.type a{
     color: transparent ;
 
 }
-.history .ticket-transaction .metadata span.type a#lasttrans{
+.history .transaction .metadata span.type a#lasttrans{
     display: inline;
     
 }
-.history .ticket-transaction:hover .metadata span.type a{
+.history .transaction:hover .metadata span.type a{
     color: white;
 }
 
-.history .ticket-transaction .metadata .date,
-.history .ticket-transaction .metadata .description,
-.history .ticket-transaction .metadata .time-taken {
+.history .transaction .metadata .date,
+.history .transaction .metadata .description,
+.history .transaction .metadata .time-taken {
     margin-top: 0.5em;
     display: inline-block;
     margin-right: 2em;
 }
 
-.history .ticket-transaction .metadata {
+.history .transaction .metadata {
     margin-bottom: 0em;
     margin-top: 0.25em;
 }
 
-.ticket-transaction div.metadata span.actions  {
+.transaction div.metadata span.actions  {
     background: #eee;
     color: #eee;
     display: inline-block;
@@ -50,11 +51,11 @@ div.history-container {
     -moz-border-radius-bottomright: 0.5em;
     -webkit-border-bottom-right-radius: 0.5em
 }
-.ticket-transaction div.metadata span.actions a {
+.transaction div.metadata span.actions a {
     padding: 0.2em;
 }
 
-.ticket-transaction div.downloadattachment {
+.transaction div.downloadattachment {
     float: right;
     clear: both;
     text-align: right;
@@ -66,12 +67,12 @@ div.history-container {
     line-height: 1em;
 }
 
-.ticket-transaction div.downloadattachment a {
+.transaction div.downloadattachment a {
     color: #aaa;
     display: block;
 }
 
-.ticket-transaction div.downloadattachment .downloadcontenttype {
+.transaction div.downloadattachment .downloadcontenttype {
     color #ccc;
     display: block;
 }
